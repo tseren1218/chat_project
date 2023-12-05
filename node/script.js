@@ -1,4 +1,4 @@
-const socket = io('https://tsedo-chat.vercel.app/');
+const socket = io('https://tsedo-chat.vercel.app:3000');
 const messageContainer = document.getElementById('message-container');
 const messageForm = document.getElementById('input-form')
 const messageInput = document.getElementById('input-field');
