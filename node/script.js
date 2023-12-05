@@ -1,4 +1,4 @@
-const socket = io('http://localhost:3000');
+const socket = io('https://chat-project-jade.vercel.app/');
 const messageContainer = document.getElementById('message-container');
 const messageForm = document.getElementById('input-form')
 const messageInput = document.getElementById('input-field');
